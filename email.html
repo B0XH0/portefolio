@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="index.html">Retour</a>
+    <form action="https://api.web3forms.com/submit" method="POST" >
+
+        <input type="hidden" name="access_key" value="9bd7fab5-9c61-4830-bb23-701f207074f0">
+    
+        <input type="text" name="name" required placeholder="Nom et Prénom">
+        <input type="email" name="email" required placeholder="Email">
+        <textarea name="message" required placeholder="Entré votre message ici"></textarea>
+
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    
+        <!-- Custom Confirmation / Success Page -->
+        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+        <button type="submit">Submit Form</button>
+    
+    </form>
+</body>
+</html>
